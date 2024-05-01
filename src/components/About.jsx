@@ -1,17 +1,17 @@
 import React from 'react'
 import programmingGif from "../assets/images/programming.gif"
 import sianPic from "../assets/images/sian professional pic.jpg"
-import sianResume from "../assets/resume.pdf"
+import sianResume from "../assets/images/Sian_Ali_Malik_Resume.pdf"
 
 function About() {
     return (
         <>
-        <div className="items-center justify-center lg:mt-36 hidden lg:flex" data-aos="fade-up">
+        <div className="items-center justify-center lg:mt-36 hidden lg:flex " data-aos="fade-up">
         <h1 className='text-[1.3rem] font-semibold  mt-6 mb-3 linkItem w-fit text-center  relative md:text-[1.75rem] lg:order-1 text-white dark:text-[#2D2E32] '>About Me</h1>
 
         </div>
 
-        <div className='h-screen flex flex-col gap-4 items-center justify-center w-full px-5 py-3 mt-36  md:h-fit md:py-20 lg:flex-row lg:mt-0'>
+        <div className=' flex flex-col gap-4 items-center justify-center w-full px-5 py-3 mt-36  md:h-fit md:py-20 lg:flex-row lg:mt-0'>
             
 
             <h1 className='text-[1.3rem] font-semibold text-white dark:text-[#2D2E32] mt-6 mb-3 linkItem  relative md:text-[1.75rem] lg:order-1 lg:hidden'>About Me</h1>
