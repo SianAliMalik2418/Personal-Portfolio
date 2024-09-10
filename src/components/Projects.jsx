@@ -1,14 +1,27 @@
-import React from "react";
 import ProjectCard from "./ProjectCard";
 import compilerThumb from "../assets/images/Rapid mockup.jpg";
 import movieThumb from "../assets/images/movieApp.jpg";
-import furnItThumb from "../assets/images/furnit pic.jpeg";
+import foodCheetahThumb from "../assets/images/Food Cheetah.png";
 
 function Projects() {
-
-  const project1Skills = ["React","TailwindCSS"]
-  const project2Skills = ["React","TailwindCSS","Rapid Api","React-Router-Dom"]
-  const project3Skills = ["React","TailwindCSS","TMDB API"]
+  const project1Skills = [
+    "Next Js",
+    "Typescript",
+    "TailwindCSS",
+    "MongoDB",
+    "NextAuth",
+    "Shadcn",
+    "Cloudinary",
+    "Tanstack query",
+    "React Hook form",
+  ];
+  const project2Skills = [
+    "React",
+    "TailwindCSS",
+    "Rapid Api",
+    "React-Router-Dom",
+  ];
+  const project3Skills = ["React", "TailwindCSS", "TMDB API"];
 
   return (
     <div className="mt-16 w-full text-white dark:text-[#2D2E32] pt-2 px-3 flex flex-col items-center justify-center md:mt-40">
@@ -18,15 +31,22 @@ function Projects() {
 
       <div className="flex flex-col gap-10 lg:items-center lg:justify-center">
         <ProjectCard
-          thumbNail={furnItThumb}
-          projectName={"furnIt."}
+          thumbNail={foodCheetahThumb}
+          projectName={"Food Cheetah."}
           description={
             <p>
-             Developed a stylish frontend for a furniture showcase website, featuring a curated selection of modern furniture pieces. Designed with React.js and styled with Tailwind CSS for a polished and responsive layout. Implemented dynamic filtering by category to enhance user browsing experience.
+              Developed a food panda inspired food ordering app with modern tech
+              stack like NextJs, Typescript, Tailwind CSS and Shadcn.This app is
+              a full-stack Next.js application designed to provide users with an
+              engaging and seamless restaurant experience. The app features
+              secure user authentication through NextAuth, ensuring that only
+              logged-in users can access certain functionalities like checkout,
+              creating your own restaurant and ordering from a variety of
+              restaurants.
             </p>
           }
-          liveLink={"https://furn-it.netlify.app/"}
-          repoLink={"https://github.com/SianAliMalik2418/FurnIt--Ecommerce-App"}
+          liveLink={"https://food-cheetah.vercel.app/"}
+          repoLink={"https://github.com/SianAliMalik2418/Food-Cheeeetah"}
           techStacks={project1Skills}
         />
 
