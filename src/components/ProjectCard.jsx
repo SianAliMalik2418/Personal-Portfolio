@@ -8,11 +8,12 @@ function ProjectCard({
   liveLink,
   thumbNail,
   techStacks,
+  projectId,
 }) {
   return (
     <div
       className="projectCard  mt-5 my-10  rounded-lg w-full flex flex-col pb-5  md:mt-14 lg:w-[80%]  lg:flex-row lg:items-center lg:px-2 lg:gap-3 lg:justify-center"
-      data-aos="fade-right"
+      data-aos={projectId % 2 ? "fade-right" : "fade-left"}
     >
       <div className=" w-full h-full    ">
         <img

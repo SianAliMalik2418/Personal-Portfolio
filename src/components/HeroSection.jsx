@@ -21,8 +21,8 @@ function HeroSection() {
             <span className="font-bold text-[#40e9ff] dark:text-[#35d3e7]">
               Developer
             </span>{" "}
-            with experience in full-stack focused on building beautiful
-            interfaces & experiences.{" "}
+            with experience in full-stack development focused on building
+            beautiful interfaces & experiences.{" "}
           </p>
         </div>
 

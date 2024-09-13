@@ -33,6 +33,7 @@ function Projects() {
         <ProjectCard
           thumbNail={foodCheetahThumb}
           projectName={"Food Cheetah."}
+          projectId={1}
           description={
             <p>
               Developed a food panda inspired food ordering app with modern tech
@@ -53,6 +54,7 @@ function Projects() {
         <ProjectCard
           thumbNail={compilerThumb}
           projectName={"Rapid Compiler"}
+          projectId={2}
           description={
             <p>
               The Rapid Compiler is a web platform facilitating{" "}
@@ -75,6 +77,7 @@ function Projects() {
         <ProjectCard
           thumbNail={movieThumb}
           projectName={"MovieFlix"}
+          projectId={1}
           description={
             <p>
               MovieFlix stands out with its intuitive design, allowing users to
